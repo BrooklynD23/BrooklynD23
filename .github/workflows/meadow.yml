@@ -1,0 +1,50 @@
+name: Refresh scene + featured
+
+on:
+  schedule:
+    - cron: "23 * * * *" # hourly at :23. Commits only when the LA phase, the daily cast, or Featured changed (~7-8 a day)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Offline tests
+        run: node --test scripts/
+      - name: Regenerate header for the current Los Angeles phase and date
+        id: scene
+        # Builds and validates in memory; on any error exits 1 and writes nothing, so the last good header stays.
+        run: node scripts/generate.mjs
+      - name: Refresh Featured (top 3 recently pushed public repos)
+        # On API failure prints a warning and leaves README.md untouched; never fails the job.
+        run: node scripts/featured.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit only when something changed
+        env:
+          PHASE: ${{ steps.scene.outputs.phase }}
+        run: |
+          scene=0; feat=0
+          git diff --quiet -- assets/header.svg || scene=1
+          git diff --quiet -- README.md || feat=1
+          if [ "$scene$feat" = "00" ]; then echo "No change."; exit 0; fi
+          if [ "$scene$feat" = "11" ]; then msg="chore: refresh scene ($PHASE) + featured"
+          elif [ "$scene" = "1" ]; then msg="chore: refresh scene ($PHASE)"
+          else msg="chore: refresh featured"; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/header.svg README.md
+          git commit -m "$msg"
+          git push

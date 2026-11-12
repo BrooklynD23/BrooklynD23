@@ -1,0 +1,9 @@
+[
+  { "name": "fixture-user", "fork": false, "private": false, "description": "profile repo, must be skipped", "language": null, "pushed_at": "2026-11-12T10:00:00Z" },
+  { "name": "forked-thing", "fork": true, "private": false, "description": "a fork, must be skipped", "language": "Go", "pushed_at": "2026-11-12T09:00:00Z" },
+  { "name": "alpha", "fork": false, "private": false, "description": "Line one\nline <b>two</b> with [link](http://x) and *stars*", "language": "Python", "pushed_at": "2026-11-12T08:00:00Z" },
+  { "name": "beta", "fork": false, "private": false, "description": null, "language": null, "pushed_at": "2026-11-11T08:00:00Z" },
+  { "name": "secret", "fork": false, "private": true, "description": "private, must be skipped", "language": "Rust", "pushed_at": "2026-11-11T07:00:00Z" },
+  { "name": "gamma", "fork": false, "private": false, "description": "Third newest", "language": "TypeScript", "pushed_at": "2026-11-10T08:00:00Z" },
+  { "name": "delta", "fork": false, "private": false, "description": "Fourth, not shown", "language": "HTML", "pushed_at": "2026-11-09T08:00:00Z" }
+]

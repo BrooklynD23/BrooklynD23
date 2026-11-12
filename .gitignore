@@ -1,0 +1,4 @@
+node_modules/
+# review images, not part of the profile
+preview-*.png
+sprites.png
