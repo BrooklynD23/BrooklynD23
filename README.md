@@ -15,8 +15,8 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 
 <!-- FEATURED:START -->
 - **[HealthCentral](https://github.com/BrooklynD23/HealthCentral)**: Local-first Health-Dashboard overview with Local LLM as explanatory agents catered to helping user understands their bio-marker readings. · `Python`
+- **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: No description yet. · `HTML`
 - **[shoppilot](https://github.com/BrooklynD23/shoppilot)**: ShopPilot+: AI operations agent for small online shops. You approve every dollar. \(CS4680 A4\) · `Python`
-- **[CEO-Business-Challenge](https://github.com/BrooklynD23/CEO-Business-Challenge)**: IEHP Medi-Cal managed care to fee-for-service transition: access-to-care analysis for the Cal Poly Pomona CEO Business Challenge · `Python`
 <!-- FEATURED:END -->
 
 <p align="center"><sub>The sky follows the time of day in Los Angeles, the meadow gets a new cast daily, and Featured tracks my latest pushes, all via <a href=".github/workflows/meadow.yml">GitHub Actions</a>.</sub></p>
