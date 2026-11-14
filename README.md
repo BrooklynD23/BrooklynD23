@@ -14,9 +14,9 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
+- **[HealthCentral](https://github.com/BrooklynD23/HealthCentral)**: Asclexis: a local-first medical results companion. Import documents, verify extracted data, see trends, get cited explanations. · `Python`
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: No description yet. · `HTML`
 - **[Stellaris-Adaptive-AI-Engine](https://github.com/BrooklynD23/Stellaris-Adaptive-AI-Engine)**: No description yet. · `Python`
-- **[HealthCentral](https://github.com/BrooklynD23/HealthCentral)**: Asclexis: a local-first medical results companion. Import documents, verify extracted data, see trends, get cited explanations. · `Python`
 <!-- FEATURED:END -->
 
 <p align="center"><sub>The sky follows the time of day in Los Angeles, the meadow gets a new cast daily, and Featured tracks my latest pushes, all via <a href=".github/workflows/meadow.yml">GitHub Actions</a>.</sub></p>
