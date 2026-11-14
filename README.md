@@ -14,8 +14,8 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
-- **[HealthCentral](https://github.com/BrooklynD23/HealthCentral)**: Local-first Health-Dashboard overview with Local LLM as explanatory agents catered to helping user understands their bio-marker readings. · `Python`
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: No description yet. · `HTML`
+- **[HealthCentral](https://github.com/BrooklynD23/HealthCentral)**: Local-first Health-Dashboard overview with Local LLM as explanatory agents catered to helping user understands their bio-marker readings. · `Python`
 - **[shoppilot](https://github.com/BrooklynD23/shoppilot)**: ShopPilot+: AI operations agent for small online shops. You approve every dollar. \(CS4680 A4\) · `Python`
 <!-- FEATURED:END -->
 
