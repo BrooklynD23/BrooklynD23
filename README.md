@@ -14,7 +14,7 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
-- **[HealthCentral](https://github.com/BrooklynD23/HealthCentral)**: Asclexis: a local-first medical results companion. Import documents, verify extracted data, see trends, get cited explanations. · `Python`
+- **[Asclexis](https://github.com/BrooklynD23/Asclexis)**: Asclexis: a local-first medical results companion. Import documents, verify extracted data, see trends, get cited explanations. · `Python`
 - **[Captcha-Mayhem](https://github.com/BrooklynD23/Captcha-Mayhem)**: No description yet.
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: Official site for DIGITAL, Cal Poly Pomona's student-run venture studio. Next.js 14 static export on Vercel. · `HTML`
 <!-- FEATURED:END -->
