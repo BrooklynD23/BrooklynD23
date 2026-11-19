@@ -54,7 +54,8 @@ jobs:
               git commit -q -m "$msg"
               git push -q || echo "push failed, retry next tick"
             fi
-            [ "$i" -lt 22 ] && sleep 900
+            # `[ ... ] && sleep` would end the script with exit 1 on the last pass and fail the run
+            if [ "$i" -lt 22 ]; then sleep 900; fi
           done
       - name: Start the next run
         # Only after a healthy run: a failing test must not spin a fast restart loop (the cron backstop retries).
