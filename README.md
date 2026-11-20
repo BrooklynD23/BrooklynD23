@@ -14,7 +14,7 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
-- **[Captcha-Mayhem](https://github.com/BrooklynD23/Captcha-Mayhem)**: No description yet.
+- **[Captcha-Mayhem](https://github.com/BrooklynD23/Captcha-Mayhem)**: No description yet. · `TypeScript`
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: Official site for DIGITAL, Cal Poly Pomona's student-run venture studio. Next.js 14 static export on Vercel. · `HTML`
 - **[Mods-Tool-Stellaris](https://github.com/BrooklynD23/Mods-Tool-Stellaris)**: No description yet. · `Rust`
 <!-- FEATURED:END -->
