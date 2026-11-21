@@ -14,8 +14,8 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
-- **[brand-studio](https://github.com/BrooklynD23/brand-studio)**: Brand Studio: local companion app for brand-consistent marketing assets \(private\) · `Python`
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: Official site for DIGITAL, Cal Poly Pomona's student-run venture studio. Next.js 14 static export on Vercel. · `HTML`
+- **[brand-studio](https://github.com/BrooklynD23/brand-studio)**: Brand Studio: local companion app for brand-consistent marketing assets \(private\) · `Python`
 - **[Captcha-Mayhem](https://github.com/BrooklynD23/Captcha-Mayhem)**: No description yet. · `TypeScript`
 <!-- FEATURED:END -->
 
