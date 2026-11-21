@@ -14,9 +14,9 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
+- **[brand-studio](https://github.com/BrooklynD23/brand-studio)**: Brand Studio: local companion app for brand-consistent marketing assets \(private\) · `Python`
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: Official site for DIGITAL, Cal Poly Pomona's student-run venture studio. Next.js 14 static export on Vercel. · `HTML`
 - **[Captcha-Mayhem](https://github.com/BrooklynD23/Captcha-Mayhem)**: No description yet. · `TypeScript`
-- **[Mods-Tool-Stellaris](https://github.com/BrooklynD23/Mods-Tool-Stellaris)**: No description yet. · `Rust`
 <!-- FEATURED:END -->
 
 <p align="center"><sub>The sky follows the time of day in Los Angeles, the meadow gets a new cast daily, and Featured tracks my latest pushes, all via <a href=".github/workflows/meadow.yml">GitHub Actions</a>.</sub></p>
