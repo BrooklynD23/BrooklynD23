@@ -14,9 +14,9 @@ On the side, I take photos for a hobby, feel free to check out [my page](https:/
 ### Featured
 
 <!-- FEATURED:START -->
+- **[Captcha-Mayhem](https://github.com/BrooklynD23/Captcha-Mayhem)**: No description yet. · `TypeScript`
 - **[Stellaris-Adaptive-AI-Engine](https://github.com/BrooklynD23/Stellaris-Adaptive-AI-Engine)**: Open-source adaptive AI director for modded Stellaris 4.4: reshapes AI economy, fleets and posture to counter your play. No cheats. · `Python`
 - **[DIGITAL_WebsiteV1](https://github.com/BrooklynD23/DIGITAL_WebsiteV1)**: Official site for DIGITAL, Cal Poly Pomona's student-run venture studio. Next.js 14 static export on Vercel. · `HTML`
-- **[Mods-Tool-Stellaris](https://github.com/BrooklynD23/Mods-Tool-Stellaris)**: No description yet. · `Rust`
 <!-- FEATURED:END -->
 
 <p align="center"><sub>The sky follows the time of day in Los Angeles, the meadow gets a new cast daily, and Featured tracks my latest pushes, all via <a href=".github/workflows/meadow.yml">GitHub Actions</a>.</sub></p>
